@@ -1,3 +1,101 @@
 body {
-background: black;
+margin: 0;
+padding: 0;
+background-color: whitesmoke;
+font-family: 'Open Sans Condensed', sans-serif;
+height: 800;
+
 }
+
+#title{
+    margin: 0;
+    padding-top: 200;
+    padding-bottom: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-size: 40;
+}
+
+
+#container{
+margin: 0;
+padding: 0;
+display: flex;
+flex-direction: row;
+background: whitesmoke;
+
+justify-content: center;
+align-items: center;
+
+
+}
+#choices:hover{
+    background-color: silver;
+}
+#results:hover{
+    background-color: silver;
+}
+
+#resetContainer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+margin: 5;
+height:150px;
+width: 100px;
+order: 2;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 25;
+font-weight: bold;
+border-radius: 3px;
+border-color:black;
+border-width: 1px;
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+#resetButton{
+    height: 36px;
+    width: 320;
+    align-items: center;
+    justify-content: center;
+}
+#resetbutton:hover{
+    cursor: pointer;
+    background-color:crimson;
+}
+
+#choices {
+height: 150px;
+width:360px;
+background-color:rgb(199, 210, 218);
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 30;
+order: 0;
+}
+
+
+#results{
+height: 150px;
+width: 360px;
+background-color: rgb(199, 210, 218);
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 30;
+order: 3;
+}
+
